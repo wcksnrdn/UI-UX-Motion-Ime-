@@ -1,0 +1,131 @@
+.containerheader {
+    font-family: 'montserrat';
+    margin-bottom: 30px;
+}
+
+.textboxlogin-container {
+    position: relative;
+    margin-top: 20px;
+}
+
+.textboxlogin {
+    width: 350px;
+    padding: 10px 10px 10px 0;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    font-family: 'montserrat';
+    margin: 0 auto;
+    display: block;
+    border-bottom: 2px solid #ccc;
+    font-size: 16px;
+    outline: none;
+}
+
+.textboxlogin-label {
+    position: absolute;
+    left: 36.8%;
+    top: 10px;
+    font-size: 16px;
+    font-family: 'montserrat';
+    color: #aaa;
+    transition: 0.3s ease all;
+    pointer-events: none; /* Prevent label from being clicked */
+}
+
+.textboxlogin:focus + .textboxlogin-label,
+.textboxlogin:valid + .textboxlogin-label {
+    top: -15px;
+    left: 36.8%;
+    font-size: 12px;
+    color: #000; /* You can adjust this color */
+}
+
+.textboxlogin:focus {
+    border-bottom: 2px solid #000; /* Border changes on focus */
+}
+
+
+.containerlogin {
+    display: block;
+    position: relative;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    top: 150px;
+}
+
+.submitbutton {
+    justify-content: center;
+    align-items: center;
+    display: block;
+    position: relative;
+    color: white;
+    top: 10px;
+    border-radius: 20px;
+    width: 350px;
+    height: 40px;
+    text-align: center;
+    border: none;
+    background: linear-gradient(90deg, white 3%, pink, rgb(255, 147, 255), rgb(255, 27, 255), purple 100%);
+    font-size: 14px;
+    font-family: 'Montserrat';
+    margin: 0 auto;
+    cursor: pointer;
+    transition: all 0.4s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover Effect with Color Motion */
+.submitbutton:hover {
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
+
+.googlebutton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: #4285F4;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    top: 50px;
+    width: 350px;
+    position: relative;
+    padding: 10px 40px;
+    margin: 0 auto;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.582);
+}
+
+.googlebutton img {
+    margin-right: 8px;
+}
+
+.googlebutton:hover {
+    border: 2px solid rgba(0, 0, 0, 0.281);
+}
+
+.motionimeutama {
+    width: 300px;
+    height: auto;
+    position: relative;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    display: block;
+    border-radius: 10px;
+}
+
+.or {
+    position: relative;
+    margin: 0 auto;
+    font-size: 20px;
+    font-family: 'montserrat';
+    background-color: white;
+    top: 23px;
+    width: 30px;
+}
